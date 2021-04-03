@@ -1,6 +1,6 @@
 unit Unit1;
 
-{$I Definition.Inc}
+
 
 interface
 
@@ -39,6 +39,7 @@ var
 implementation
 
 {$R *.dfm}
+{$I Definition.inc}
 
 Uses
   TypInfo,

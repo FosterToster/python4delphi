@@ -23,7 +23,6 @@ object Form1: TForm1
     Height = 3
     Cursor = crVSplit
     Align = alTop
-    ExplicitWidth = 584
   end
   object Memo1: TMemo
     Left = 0

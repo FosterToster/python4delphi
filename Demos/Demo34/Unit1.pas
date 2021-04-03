@@ -1,6 +1,6 @@
 ﻿unit Unit1;
 
-{$I Definition.Inc}
+
 
 interface
 
@@ -119,9 +119,6 @@ begin
   PythonType1.TypeName := 'Point';
   PythonType1.Prefix := 'Create';
   PythonType1.Services.Basic := [bsRepr,bsStr,bsGetAttrO,bsSetAttrO];
-  PythonType1.TypeFlags :=
-    [tpfHaveGetCharBuffer,tpfHaveSequenceIn,tpfHaveInplaceOps,
-    tpfHaveRichCompare,tpfHaveWeakRefs,tpfHaveIter,tpfHaveClass,tpfBaseType];
   PythonType1.Module := PythonModule1;
 
   PythonEngine1.LoadDll;
@@ -293,7 +290,7 @@ begin
     end;
 end;
 
-/////////////////////////////////////////////////
+///
 
 procedure TForm1.Button1Click(Sender: TObject);
 var
